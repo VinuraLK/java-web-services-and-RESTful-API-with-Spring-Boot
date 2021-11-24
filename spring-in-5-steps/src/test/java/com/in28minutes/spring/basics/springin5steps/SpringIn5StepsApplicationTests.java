@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class SpringIn5StepsApplicationTests {
 	public static void main(String[] args) {
-		BinarySearchImpl binarySearch = new BinarySearchImpl();
+		BinarySearchImpl binarySearch = new BinarySearchImpl(new BubbleSortAlgorithm());
 		int result = binarySearch.binarySearch(new int[] {12,4,3}, 3);
 		System.out.println(result);
 		
