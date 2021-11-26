@@ -1,9 +1,9 @@
 package com.in28minutes.Simple.gaming.app.game;
 
 public class GameRunner {
-	private MarioGame game;
+	private GamingConsole game;
 
-	public GameRunner(MarioGame game) {
+	public GameRunner(GamingConsole game) {
 		this.game = game;
 	}
 	

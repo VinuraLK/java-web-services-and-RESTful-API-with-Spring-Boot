@@ -1,20 +1,24 @@
 package com.in28minutes.Simple.gaming.app.game;
 
-public class MarioGame {
+public class MarioGame implements GamingConsole {
 
+	@Override
 	public void up() {
-		System.out.println("up");
+		System.out.println("asdasda");
 	}
 	
+	@Override
 	public void down() {
-		System.out.println("down");
+		System.out.println("asdasd");
 	}
 	
+	@Override
 	public void left() {
-		System.out.println("left");
+		System.out.println("asdasd");
 	}
 	
+	@Override
 	public void right() {
-		System.out.println("right");
+		System.out.println("asdasd");
 	}
 }

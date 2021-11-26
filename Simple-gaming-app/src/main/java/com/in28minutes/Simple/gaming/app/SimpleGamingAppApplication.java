@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.in28minutes.Simple.gaming.app.game.GameRunner;
 import com.in28minutes.Simple.gaming.app.game.MarioGame;
+import com.in28minutes.Simple.gaming.app.game.SuperContraGame;
 
 @SpringBootApplication
 public class SimpleGamingAppApplication {
@@ -14,9 +15,12 @@ public class SimpleGamingAppApplication {
 		
 		MarioGame game = new MarioGame();
 		
+		//SuperContraGame game = new SuperContraGame();
+		
 		GameRunner runner = new GameRunner(game);
 		
 		runner.runGame();
 	}
 
 }
+ 
