@@ -1,8 +1,13 @@
 package com.in28minutes.Simple.gaming.app.game;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class GameRunner {
 	private GamingConsole game;
 
+	@Autowired
 	public GameRunner(GamingConsole game) {
 		this.game = game;
 	}

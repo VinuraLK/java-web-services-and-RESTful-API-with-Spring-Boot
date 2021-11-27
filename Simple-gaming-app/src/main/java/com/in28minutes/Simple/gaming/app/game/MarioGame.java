@@ -1,5 +1,8 @@
 package com.in28minutes.Simple.gaming.app.game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class MarioGame implements GamingConsole {
 
 	@Override
