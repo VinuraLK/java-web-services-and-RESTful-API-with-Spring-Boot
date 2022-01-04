@@ -1,0 +1,12 @@
+Internationalization
+
+Configuration
+
+- LocaleResolver
+- Default Locale - Locale.US
+- ResourceBundleMessageSource
+
+Usage
+
+- Autowire MessageSource
+-@ReuquestHeader(value = “Accept-language, required = false”) Locale 
