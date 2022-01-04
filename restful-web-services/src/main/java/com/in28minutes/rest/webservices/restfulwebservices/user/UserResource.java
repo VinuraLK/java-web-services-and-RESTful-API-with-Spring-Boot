@@ -1,6 +1,6 @@
 package com.in28minutes.rest.webservices.restfulwebservices.user;
 
-static import org.springframework.hateoas.mvc.ControllerLinkBuilder.
+
 import java.net.URI;
 import java.util.List;
 
@@ -35,9 +35,9 @@ public class UserResource {
 		if(user==null)
 			throw new UserNotFoundException("ïd-"+id);
 		
-		Resource<User> resource = new Resource<User(user)>;
 		
-		linkTo(methodOn(this.getCLass));
+		
+		
  
 		
 		return user;
