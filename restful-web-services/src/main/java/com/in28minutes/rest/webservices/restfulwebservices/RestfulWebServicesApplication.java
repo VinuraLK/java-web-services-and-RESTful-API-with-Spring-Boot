@@ -25,6 +25,10 @@ public class RestfulWebServicesApplication {
 	}
 	
 	@Bean
-	public ResourceBundleMessageSource 
+	public ResourceBundleMessageSource messageSource() {
+		ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
+		messageSource.setBasename("Messages");
+		return messageSource;
+	}
 	
 }
