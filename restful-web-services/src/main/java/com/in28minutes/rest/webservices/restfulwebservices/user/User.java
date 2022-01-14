@@ -20,6 +20,10 @@ public class User {
 		@Past
 		@ApiModelProperty(notes="Birthdate should be in the past")
 		private Date birthDate;
+		
+		protected User() {
+			
+		}
 
 		public Integer getId() {
 			return id;
